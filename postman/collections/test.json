@@ -14,7 +14,25 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get?id=234",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "234",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
